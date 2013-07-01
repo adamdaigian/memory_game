@@ -1,5 +1,5 @@
 body {
-  background-color:gold;
+  background-color:gray;
 }
 
 #board {
@@ -26,4 +26,8 @@ body {
 
 #board .tile img {
   visibility: hidden;
+}
+
+#board .tile.active img {
+  visibility: visible;
 }
